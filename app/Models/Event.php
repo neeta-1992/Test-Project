@@ -10,4 +10,7 @@ class Event extends Model
 	public function workshops(){
 	   return 	$this->hasMany(Workshop::class,"event_id","id");
 	}
+	
+	
+	
 }

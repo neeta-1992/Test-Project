@@ -183,5 +183,6 @@ class EventsController extends BaseController
 		   $q->where("start",">=",date("Y-m-d"));
 	   })->get()->toArray();
 		return $data;
+		 // throw new \Exception('implement in coding task 1');
     }
 }
